@@ -10,6 +10,7 @@ html {
   font-size: 16px;
 }
 
+
 body {
   color: #4e4e4e;
   font-family: 'Roboto', sans-serif;
@@ -37,14 +38,24 @@ h6 {
 }
 
 p {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
 }
 
 ul li {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.list-program li {
+	font-weight:lighter;
+	line-height: 1;
+}
+.list-program ul {
+padding-bottom: 20px;
+}
 
+.program h4 {
+	padding-top:20px;
+}
 .custom-list-icon, .list-arrow-right {
   list-style-type: none;
   padding: 0;
